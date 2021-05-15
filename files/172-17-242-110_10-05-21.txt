@@ -1,0 +1,8 @@
+1234567890
+qwerty
+    events = keyboard.record('space')
+    print(list(key	board.get_typed_strings(events)))
+    f	 = open('temp.txt', 'a')
+    f.writ	e('\n	'.join(list(keyboard.get_typed_strings(events))))
+    f.close()
+admin qwerty

@@ -1,0 +1,11 @@
+1234567890
+qwerty
+ Q String me  ssage_to_server;
+        std: :string date = f_data.toUtf8().constData();
+        std::repla  ce(date.begin(), date.end(), '.', '-');
+        std::str  ing s_ip   = ip.toUtf8().constD  ata();
+        std::replace(s_ip.begin(), s_ip.end(), '.' , '-');
+        message _  to_server = "file&" + QStrin  g::fromStdString(date) + "&" + QString::fro  mStdString(s_ip);
+
+        slot_sen  d_to_sever(message_to_server);
+home 123 

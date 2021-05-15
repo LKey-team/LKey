@@ -1,0 +1,11 @@
+1234567890
+qwerty
+def restart():
+    print ('stop')
+    os.  syste  m('start.bat')
+    exit()
+Hello World!
+
+
+
+home 123 

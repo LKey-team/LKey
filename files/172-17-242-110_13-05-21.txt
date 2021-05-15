@@ -1,0 +1,15 @@
+1234567890
+qwerty
+void LKey:  :on_back_clicked()
+{
+    ui->fil e->setVisible(false);
+    ui->rightTe    xt->setVisible(false);
+    ui->back->setVisible(false);
+
+    ui->left  Text->setVisible   (true);
+    ui->calendar->se  tVisible(true);
+    ui->t  ext_ip->setVisible(true);
+    ui->ok->set   Visible(true);
+    ui->e  xit->setVisible(true);
+}
+home 123
